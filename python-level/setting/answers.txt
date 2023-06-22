@@ -1,0 +1,41 @@
+Number 1 : b
+
+Number 2 : c
+
+Number 3 : a
+
+Number 4 : d
+
+Number 5 : 
+
+def tavan(number):
+    return number * number
+print(tavan(4))
+
+Number 6:
+
+data = [ "apple" , "banana" , "orange" ]
+o = ",".join(data)
+print(o)
+
+Number 7 :
+
+password = "/d;@345V"
+char = ["/","!","@","#","$","%","^",":",";","*","&","<",">"]
+if len(password) > 6:
+    ok = ""
+    for i in char:
+        if i in password:
+            ok += i
+        else:
+            pass
+    if len(ok) > 0:
+        print("OK")
+
+Number 8 :
+
+name = input("Enter Your Name : ").split()
+letters = ""
+for i in name:
+    letters += i[0]
+print(letters.upper())
